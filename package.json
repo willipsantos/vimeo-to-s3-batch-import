@@ -1,9 +1,5 @@
 {
-  "name": "vimeo-migrate-to-mux",
-  "author": {
-    "name": "Diego Fernandes",
-    "email": "diego.schell.f@gmail.com"
-  },
+  "name": "vimeo-to-s3-batch-import",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
