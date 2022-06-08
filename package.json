@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "run-migration": "ts-node src/RunMigration.ts",
-    "get-playback-ids": "ts-node src/GetPlaybackIds.ts"
+    "run-migration": "ts-node src/RunMigration.ts"
   },
   "devDependencies": {
     "@types/node": "^16.4.3",
@@ -14,9 +13,11 @@
   },
   "dependencies": {
     "@mux/mux-node": "^3.2.3",
+    "aws-sdk": "^2.1151.0",
     "chalk": "^4.1.1",
     "dotenv": "^10.0.0",
     "fastq": "^1.11.1",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "stream": "^0.0.2"
   }
 }
